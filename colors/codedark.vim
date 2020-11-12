@@ -125,7 +125,7 @@ let s:cdYellow = {'gui': '#DCDCAA', 'cterm': s:cterm0A, 'cterm256': '187'}
 if g:codedark_conservative | let s:cdYellow = s:cdFront | endif
 let s:cdPink = {'gui': '#C586C0', 'cterm': s:cterm0E, 'cterm256': '176'}
 if g:codedark_conservative | let s:cdPink = s:cdBlue | endif
-let s:cdMagenta = {'gui': '#af00af', 'cterm': s:cterm0E, 'cterm256': '127'  }
+let s:cdMagenta = {'gui': '#D700AF', 'cterm': s:cterm0E, 'cterm256': '163'}
 
 " Vim editor colors
 "    <sid>hi(GROUP, FOREGROUND, BACKGROUND, ATTRIBUTE, SPECIAL)
