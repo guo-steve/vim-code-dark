@@ -125,6 +125,7 @@ let s:cdYellow = {'gui': '#DCDCAA', 'cterm': s:cterm0A, 'cterm256': '187'}
 if g:codedark_conservative | let s:cdYellow = s:cdFront | endif
 let s:cdPink = {'gui': '#C586C0', 'cterm': s:cterm0E, 'cterm256': '176'}
 if g:codedark_conservative | let s:cdPink = s:cdBlue | endif
+let s:cdMagenta = {'gui': '#af00af', 'cterm': s:cterm0E, 'cterm256': '127'  }
 
 " Vim editor colors
 "    <sid>hi(GROUP, FOREGROUND, BACKGROUND, ATTRIBUTE, SPECIAL)
@@ -214,7 +215,7 @@ call <sid>hi('Ignore', s:cdFront, {}, 'none', {})
 
 call <sid>hi('Error', s:cdRed, s:cdBack, 'undercurl', s:cdRed)
 
-call <sid>hi('Todo', s:cdNone, s:cdLeftMid, 'none', {})
+call <sid>hi('Todo', s:cdMagenta, s:cdBack, 'bold', {})
 
 call <sid>hi('SpellBad', s:cdRed, s:cdBack, 'undercurl', s:cdRed)
 call <sid>hi('SpellCap', s:cdRed, s:cdBack, 'undercurl', s:cdRed)
@@ -395,7 +396,7 @@ call <sid>hi('goComplexes', s:cdBlueGreen, {}, 'none', {})
 call <sid>hi('goBuiltins', s:cdYellow, {}, 'none', {})
 call <sid>hi('goBoolean', s:cdBlue, {}, 'none', {})
 call <sid>hi('goPredefinedIdentifiers', s:cdBlue, {}, 'none', {})
-call <sid>hi('goTodo', s:cdGreen, {}, 'none', {})
+call <sid>hi('goTodo', s:cdMagenta, {}, 'bold', {})
 call <sid>hi('goDeclaration', s:cdBlue, {}, 'none', {})
 call <sid>hi('goDeclType', s:cdBlue, {}, 'none', {})
 call <sid>hi('goTypeDecl', s:cdBlue, {}, 'none', {})
@@ -417,7 +418,7 @@ call <sid>hi('pythonBuiltinObj', s:cdLightBlue, {}, 'none', {})
 call <sid>hi('pythonBuiltinType', s:cdBlueGreen, {}, 'none', {})
 call <sid>hi('pythonBoolean', s:cdBlue, {}, 'none', {})
 call <sid>hi('pythonNone', s:cdBlue, {}, 'none', {})
-call <sid>hi('pythonTodo', s:cdBlue, {}, 'none', {})
+call <sid>hi('pythonTodo', s:cdMagenta, {}, 'bold', {})
 call <sid>hi('pythonClassVar', s:cdBlue, {}, 'none', {})
 call <sid>hi('pythonClassDef', s:cdBlueGreen, {}, 'none', {})
 
