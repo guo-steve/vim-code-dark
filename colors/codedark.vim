@@ -95,7 +95,7 @@ let s:cdLineNumber = {'gui': '#5A5A5A', 'cterm': s:cterm04, 'cterm256': '240'}
 let s:cdDiffRedDark = {'gui': '#262627', 'cterm': s:cterm08, 'cterm256': '235'}
 let s:cdDiffRedLight = {'gui': '#6F1313', 'cterm': s:cterm08, 'cterm256': '237'}
 let s:cdDiffRedLightLight = {'gui': '#FB0101', 'cterm': s:cterm08, 'cterm256': '09'}
-let s:cdDiffGreenDark = {'gui': '#1E1E1E', 'cterm': s:cterm0B, 'cterm256': '233'}
+let s:cdDiffGreenDark = {'gui': '#1E1E1E', 'cterm': s:cterm0B, 'cterm256': '236'}
 let s:cdDiffGreenLight = {'gui': '#4B5632', 'cterm': s:cterm09, 'cterm256': '58'}
 
 let s:cdSearchCurrent = {'gui': '#4B5632', 'cterm': s:cterm09, 'cterm256': '58'}
