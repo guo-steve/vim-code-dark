@@ -110,7 +110,7 @@ endif
 let s:cdGray = {'gui': '#808080', 'cterm': s:cterm04, 'cterm256': '08'}
 let s:cdViolet = {'gui': '#646695', 'cterm': s:cterm04, 'cterm256': '60'}
 let s:cdBlue = {'gui': '#569CD6', 'cterm': s:cterm0D, 'cterm256': '75'}
-let s:cdDarkBlue = {'gui': '#223E55', 'cterm': s:cterm0D, 'cterm256': '73'}
+let s:cdDarkBlue = {'gui': '#0087FF', 'cterm': s:cterm0D, 'cterm256': '33'}
 let s:cdLightBlue = {'gui': '#9CDCFE', 'cterm': s:cterm0C, 'cterm256': '117'}
 if g:codedark_conservative | let s:cdLightBlue = s:cdFront | endif
 let s:cdGreen = {'gui': '#6A9955', 'cterm': s:cterm0B, 'cterm256': '65'}
@@ -411,15 +411,16 @@ call <sid>hi('goSingleDecl', s:cdLightBlue, {}, 'none', {})
 
 " Python:
 call <sid>hi('pythonStatement', s:cdBlue, {}, 'none', {})
+call <sid>hi('pythonStatementFlow', s:cdPink, {}, 'none', {})
 call <sid>hi('pythonOperator', s:cdBlue, {}, 'none', {})
 call <sid>hi('pythonException', s:cdPink, {}, 'none', {})
 call <sid>hi('pythonExClass', s:cdBlueGreen, {}, 'none', {})
 call <sid>hi('pythonBuiltinObj', s:cdLightBlue, {}, 'none', {})
 call <sid>hi('pythonBuiltinType', s:cdBlueGreen, {}, 'none', {})
-call <sid>hi('pythonBoolean', s:cdDarkBlue, {}, 'none', {})
-call <sid>hi('pythonNone', s:cdDarkBlue, {}, 'none', {})
+call <sid>hi('pythonBoolean', s:cdMagenta, {}, 'none', {})
+call <sid>hi('pythonNone', s:cdMagenta, {}, 'none', {})
 call <sid>hi('pythonTodo', s:cdMagenta, {}, 'bold', {})
-call <sid>hi('pythonClassVar', s:cdDarkBlue, {}, 'none', {})
+call <sid>hi('pythonClassVar', s:cdMagenta, {}, 'none', {})
 call <sid>hi('pythonClassDef', s:cdBlueGreen, {}, 'none', {})
 call <sid>hi('pythonClass', s:cdBlueGreen, {}, 'none', {})
 
