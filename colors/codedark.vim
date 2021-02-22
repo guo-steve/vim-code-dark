@@ -420,7 +420,7 @@ call <sid>hi('pythonBuiltinType', s:cdBlueGreen, {}, 'none', {})
 call <sid>hi('pythonBoolean', s:cdYellowOrange, {}, 'none', {})
 call <sid>hi('pythonNone', s:cdYellowOrange, {}, 'none', {})
 call <sid>hi('pythonTodo', s:cdMagenta, {}, 'bold', {})
-call <sid>hi('pythonClassVar', s:cdYellow, {}, 'none', {})
+call <sid>hi('pythonClassVar', s:cdDarkBlue, {}, 'none', {})
 call <sid>hi('pythonClassDef', s:cdBlueGreen, {}, 'none', {})
 call <sid>hi('pythonClass', s:cdBlueGreen, {}, 'none', {})
 
